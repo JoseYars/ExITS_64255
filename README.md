@@ -1,6 +1,6 @@
 passwordsql= Escolario123
 
-http requets
+http requets de intelij
 ###
 POST http://localhost:8080/libros
 Content-Type: application/json
