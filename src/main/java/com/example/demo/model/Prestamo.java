@@ -34,8 +34,6 @@ public class Prestamo {
     )
     private List<Libro> libros = new ArrayList<>();
 
-    @Column(nullable = false)
-    private LocalDateTime fechaPrestamo = LocalDateTime.now();
 
     public Long getId() {
         return id;
@@ -60,12 +58,5 @@ public class Prestamo {
     public void setLibros(List<Libro> libros) {
         this.libros = libros;
     }
-
-    public LocalDateTime getFechaPrestamo() {
-        return fechaPrestamo;
-    }
-
-    public void setFechaPrestamo(LocalDateTime fechaPrestamo) {
-        this.fechaPrestamo = fechaPrestamo;
-    }
+    
 }
